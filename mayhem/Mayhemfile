@@ -1,0 +1,6 @@
+project: blockdiag
+target: blockdiag-fuzz
+
+cmds:
+  - cmd: /fuzz_parse_string.py
+    libfuzzer: true
